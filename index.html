@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Agastin M | AI & ML Portfolio</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Agastin M, Final-year Computer Science (AI & ML) student with experience in AI, Machine Learning, Computer Vision, NLP, and Full-Stack Development.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Agastin M</div>
+
+  <ul class="nav-links">
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" class="hero-section">
+  <div class="hero-content">
+    <span class="greeting">Hello, I'm</span>
+
+    <h1 class="name">Agastin M</h1>
+
+    <h2 class="role">
+      Final-Year CSE (AI & ML) Student | AI & Full-Stack Developer
+    </h2>
+
+    <p class="tagline">
+      Building intelligent AI systems and real-world full-stack applications.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="glow-sphere"></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h2 class="section-title">Education</h2>
+
+  <div class="card education-card">
+    <div class="card-header">
+      <h3>Sri Sairam Engineering College, Chennai</h3>
+      <span class="date">Oct 2022 – May 2026</span>
+    </div>
+
+    <p>B.E. Computer Science & Engineering (AI & ML)</p>
+    <p class="grade">CGPA: 8.06</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2 class="section-title">Experience</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <span class="date">Jun 2025 – Jul 2025</span>
+        <h3>Full-Stack Development Intern</h3>
+        <h4>Airports Authority of India</h4>
+        <ul>
+          <li>Built a Stock Monitoring System using React, Node.js, Express, and MySQL.</li>
+          <li>Reduced manual reconciliation time by ~90% using dashboards and Excel import/export.</li>
+          <li>Migrated backend to cloud-hosted MySQL improving uptime by ~25%.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <span class="date">Jun 2024 – Jul 2024</span>
+        <h3>Research Intern</h3>
+        <h4>CSIR – Taramani</h4>
+        <ul>
+          <li>Implemented YOLO-based timber defect detection on terahertz images.</li>
+          <li>Achieved F1 score &gt; 0.97 with &lt; 4% measurement error.</li>
+          <li>Co-authored a Springer journal publication.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- NL SQL -->
+    <div class="project-card">
+      <h3>Natural Language SQL Analytics Application</h3>
+
+      <p>
+        AI-powered analytics system that converts natural language
+        queries into safe SQL for real-time insights.
+      </p>
+
+      <div class="tech-stack">
+        <span>React.js</span>
+        <span>FastAPI</span>
+        <span>PyTorch</span>
+        <span>FLAN-T5</span>
+        <span>MySQL</span>
+      </div>
+
+      <a href="projects/nl-sql.html" class="btn primary">
+        View Project Details →
+      </a>
+    </div>
+
+    <!-- Railway -->
+    <div class="project-card">
+      <h3>Smart Railway Surveillance System</h3>
+
+      <p>
+        Real-time railway monitoring prototype using YOLO and
+        sensor-based hazard detection with sub-200 ms latency.
+      </p>
+
+      <div class="tech-stack">
+        <span>YOLO</span>
+        <span>Computer Vision</span>
+        <span>Raspberry Pi</span>
+        <span>Ultrasonic Sensors</span>
+      </div>
+
+      <a href="projects/railway.html" class="btn secondary">
+        View Project Details →
+      </a>
+    </div>
+  <!-- AAI Stock Monitoring System -->
+<div class="project-card">
+  <h3>In and Out Stock Monitoring System (AAI)</h3>
+
+  <p>
+    Full-stack web application developed during an offline internship at
+    Airports Authority of India (Chennai) to digitize and manage IT asset
+    inventory efficiently.
+  </p>
+
+  <div class="tech-stack">
+    <span>React.js</span>
+    <span>Node.js</span>
+    <span>Express.js</span>
+    <span>MySQL</span>
+  </div>
+
+  <a href="projects/airport.html" class="btn primary">
+    View Project Details →
+  </a>
+</div>
+<!-- CSIR Research Internship -->
+<div class="project-card">
+  <h3>Wood Defect Detection using YOLO (CSIR)</h3>
+
+  <p>
+    Research internship project at Council of Scientific and Industrial Research (CSIR),
+    focusing on automated wood defect detection from terahertz images using
+    deep learning techniques.
+  </p>
+
+  <div class="tech-stack">
+    <span>YOLO</span>
+    <span>Deep Learning</span>
+    <span>Computer Vision</span>
+    <span>Python</span>
+  </div>
+
+  <a href="projects/csir.html" class="btn primary">
+    View Research Details →
+  </a>
+</div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">Technical Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-category">
+      <h3>AI & ML</h3>
+      <div class="tags">
+        <span>Machine Learning</span>
+        <span>Deep Learning</span>
+        <span>Computer Vision</span>
+        <span>NLP</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Programming</h3>
+      <div class="tags">
+        <span>Python</span>
+        <span>Java</span>
+        <span>SQL</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Web & Backend</h3>
+      <div class="tags">
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>FastAPI</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools</h3>
+      <div class="tags">
+        <span>YOLO</span>
+        <span>TensorFlow</span>
+        <span>OpenCV</span>
+        <span>Git</span>
+        <span>VS Code</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section">
+  <h2 class="section-title">Certifications</h2>
+
+  <div class="card">
+    <ul class="cert-list">
+      <li>
+        <strong>IIT Spoken Tutorial</strong> – Python, Java, SQL, Arduino
+      </li>
+      <li>
+        <strong>NPTEL</strong> – Deep Learning, Cloud Computing
+      </li>
+      <li>
+        <strong>GUVI</strong> – Machine Learning
+      </li>
+      <li>
+        <strong>Simplilearn</strong> – TensorFlow
+      </li>
+    </ul>
+
+    <p class="subtitle">
+      Certificates available upon request. Public sharing restricted to
+      maintain platform and organizational confidentiality.
+    </p>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title">Get In Touch</h2>
+
+  <div class="contact-card">
+    <p>Open to internships, research roles, and entry-level opportunities.</p>
+
+    <div class="contact-links">
+      <a href="mailto:agastin6000@gmail.com" class="contact-item">
+        <i class="fas fa-envelope"></i> agastin6000@gmail.com
+      </a>
+
+      <a href="https://linkedin.com/in/agastin2005" target="_blank" class="contact-item">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="https://github.com/Agas2024" target="_blank" class="contact-item">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <p class="location">
+      <i class="fas fa-map-marker-alt"></i> Chennai, India
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year"></span> Agastin M</p>
+</footer>
+
+</main>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

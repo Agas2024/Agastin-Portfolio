@@ -1,0 +1,195 @@
+/* ===============================
+   PROJECT PAGE LAYOUT
+================================ */
+.project-page {
+  padding: 120px 20px 60px;
+}
+
+.project-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   NAVIGATION
+================================ */
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   HEADINGS & TEXT
+================================ */
+.project-title {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  font-family: var(--font-heading);
+}
+
+.project-desc {
+  max-width: 800px;
+  color: var(--text-secondary);
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+
+.project-page h2 {
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+  color: var(--text-primary);
+}
+
+.project-page ul {
+  margin-left: 18px;
+  color: var(--text-secondary);
+}
+
+.project-page li {
+  margin-bottom: 8px;
+}
+
+/* ===============================
+   TECH STACK
+================================ */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tech-stack span {
+  background: rgba(69, 162, 158, 0.12);
+  border: 1px solid var(--glass-border);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--secondary-accent);
+}
+
+/* ===============================
+   MEDIA GRID (IMAGES)
+================================ */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.media-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.media-card h4 {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: var(--accent-color);
+}
+
+.media-card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+  transition: transform 0.3s ease;
+}
+
+.media-card img:hover {
+  transform: scale(1.03);
+}
+
+/* ===============================
+   VIDEO
+================================ */
+.video-wrapper {
+  margin-top: 35px;
+}
+
+.video-wrapper video {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--glass-border);
+}
+
+/* ===============================
+   PROJECT LINKS
+================================ */
+.project-links {
+  margin-top: 35px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-page {
+    padding-top: 100px;
+  }
+}
+/* ===============================
+   IMAGE ZOOM MODAL
+================================ */
+.img-modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+}
+
+.img-modal.active {
+  display: flex;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  animation: zoomIn 0.25s ease;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
