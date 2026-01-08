@@ -3,20 +3,20 @@
 ================================ */
 :root {
   /* Backgrounds */
-  --bg-color: #0e1117;          /* Deep GitHub-like dark */
-  --surface-color: #161b22;     /* Card / section surface */
+  --bg-color: #0a0f1c;          /* Deep blue-black */
+  --surface-color: #11182a;     /* Card / section surface */
 
   /* Accents */
-  --accent-color: #4fd1c5;      /* Soft cyan-teal (AI vibe) */
-  --secondary-accent: #38b2ac;  /* Muted teal for gradients */
+  --accent-color: #3b82f6;      /* AI blue (primary) */
+  --secondary-accent: #60a5fa;  /* Soft gradient blue */
 
   /* Text */
-  --text-primary: #e6edf3;      /* Soft white (less eye strain) */
-  --text-secondary: #9da7b3;    /* Muted gray-blue */
+  --text-primary: #e6edff;      /* Soft white-blue */
+  --text-secondary: #9aa4c7;    /* Muted blue-gray */
 
   /* Glass / Borders */
   --glass-bg: rgba(255, 255, 255, 0.04);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(59, 130, 246, 0.18);
 
   /* Fonts */
   --font-heading: 'Outfit', sans-serif;
