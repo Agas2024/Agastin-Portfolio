@@ -386,6 +386,9 @@ footer {
   transform: translateY(0);
   transition: 1s ease;
 }
+.glow-sphere {
+  filter: blur(2px);
+}
 
 /* ===============================
    MOBILE
